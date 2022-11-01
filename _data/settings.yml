@@ -1,0 +1,176 @@
+#-------------------------------
+# Site Settings
+title: Carlos Vivar Rios
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Take a look to my portfolio
+color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Featured works'
+      url: '/work/'
+    - title: 'All works'
+      url: '/blog/'
+    - url: '/contact/'
+      title: 'Contact'
+    # - url: '/elements/'
+    #   title: 'Elements'
+      # submenu:
+      # - url: '/contact/'
+      #   title: 'Contact'
+      # - url: '/elements/'
+      #   title: 'Elements'
+
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Carlos Vivar Rios
+  author__bio: 8+ years of experience alternating the work in academia and as freelance consultant and event manager. Fast learner of new computational technologies with a deep love for maps. Proficient in data processing, computer vision, data modelling, and interactive reports, as well as in scripting languages including Python and R.
+  author__avatar: '/images/01.jpg'
+
+social:
+- {icon: "ion-logo-github", link: "https://github.com/caviri"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/carlos-vivar-r%C3%ADos-750a2473/"}
+- {icon: "ion-logo-instagram", link: "https://www.instagram.com/lapenalausanne/"}
+- {icon: "ion-logo-twitter", link: "https://twitter.com/katospiegel"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero__title: Hey everyone, I'm Carlos
+  hero__description: Scientifcally-minded data analyst with international experience working on <b>genomics</b>, <b>microscopy</b> and <b>satellite</b> multidimensional image analysis, cellular biology <b>modeling</b>, and <b>web development</b>.
+  hero__image: "/images/01-1.png"
+
+
+#-------------------------------
+# Logos Settings
+logos:
+  enable: true
+  logos__title: I’ve worked in some great places
+
+logo__items:
+  - name: UMA
+    link: "https://www.uma.es/"
+    image: "/images/uma.png"
+
+  - name: Riken Genesis
+    link: "https://www.rikengenesis.jp/"
+    image: "/images/riken.png"
+
+  - name: Inria
+    link: "https://www.inria.fr/"
+    image: "/images/inria.png"
+
+  - name: University of Minesotta
+    link: "https://twin-cities.umn.edu/"
+    image: "/images/Minnesota.svg"
+
+  - name: Unil
+    link: "https://www.unil.ch/"
+    image: "/images/unil.png"
+
+  - name: Kido Dynamics
+    link: "https://www.kidodynamics.com/"
+    image: "/images/kido.png"
+
+
+
+#-------------------------------
+# Work Settings
+work:
+  enable: true
+  work__title: Featured works
+  work__description: A selection of my last works built completely with love and passion!
+
+
+#-------------------------------
+# Testimonials Section
+testimonials:
+  enable: true
+
+testimonial__title: Clients and previous collaborators
+testimonial__description:
+
+testimonial__items:
+  - name: "PhD. Takanori Washio"
+    image: "/images/washio.jpg"
+    designation: "General Manager at Riken Genesis Co., LTD. "
+    link: "https://twitter.com/"
+    content : "Carlos had shown an impressive commitment and enthusiasm in building Bioinformatics microRNA pipeline in our laboratory."
+
+  - name: "Profesor Miguel Angel Medina"
+    image: "/images/medina.jpg"
+    designation: "Full Professor Molecular Biology (UMA)"
+    link: "https://facebook.com/"
+    content : "I evaluate Carlos Vivar Rios as a creative, intelligent, adaptable, dedicated person, who is ready to achieve his goals even in adverse conditions."
+
+  - name: "Professor Yasumasa Okada"
+    image: "/images/okada.jpg"
+    designation: "Full Professor electrophysiology (Murayam Medical Center)"
+    link: "https://twitter.com/"
+    content : "Carlos Vivar Rios has proven to be a rigorous and conscientious collaborator."
+
+  # - name: "Hugues Berry"
+  #   image: "/images/client-3.jpg"
+  #   designation: "Full Researcher Computational Biology (INRIA)"
+  #   link: "https://twitter.com/"
+  #   content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  # - name: "Cristina Peña Rueda"
+  #   image: "/images/client-4.jpg"
+  #   designation: "PhD. Linguistics"
+  #   link: "https://facebook.com/"
+  #   content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+  # - name: "Tecla Lumbreras"
+  #   image: "/images/client-5.jpg"
+  #   designation: "Vicepresident of culture and sports (UMA)"
+  #   link: "https://twitter.com/"
+  #   content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+
+
+
+#-------------------------------
+# Blog Section
+blog:
+  enable: true
+
+blog__settings:
+  blog__title: All works
+  blog__description: Welcome to all my previous works. 
+
+
+#-------------------------------
+# Footer Settings
+footer__background__image: "/images/bg.jpg"
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: xqkjgzpo # Add your form_id
+  description: Contact me for any question you may have :)
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: true
+  disqus__identifier: carlosvivarrios # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id
