@@ -1,30 +1,134 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>{{ site.data.settings.title | xml_escape }}</title>
-        <description>{{ site.data.settings.description | xml_escape }}</description>
-        <link>{{ site.url }}{{ site.baseurl }}/</link>
-        <atom:link href="{{ "/feed.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
-        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-        <generator>Jekyll v{{ jekyll.version }}</generator>
-        {% for post in site.posts limit:10 %}
+        <title>Carlos Vivar Rios</title>
+        <description>Take a look to my portfolio</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 01 Nov 2022 14:41:44 +0100</pubDate>
+        <lastBuildDate>Tue, 01 Nov 2022 14:41:44 +0100</lastBuildDate>
+        <generator>Jekyll v4.3.1</generator>
+        
             <item>
-                <title>{{ post.title | xml_escape }}</title>
-                <description>{{ post.content | xml_escape }}</description>
-                <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-                <link>{{ post.url | absolute_url }}</link>
-                <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
-                {% for tag in post.tags %}
-                <category>{{ tag | xml_escape }}</category>
-                {% endfor %}
-                {% for cat in post.categories %}
-                <category>{{ cat | xml_escape }}</category>
-                {% endfor %}
+                <title>COVID-19 Data Visualization Project</title>
+                <description>
+</description>
+                <pubDate>Sun, 30 Oct 2022 13:01:35 +0100</pubDate>
+                <link>http://localhost:4000/blog/covid-19-visualization</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/covid-19-visualization</guid>
+                
+                <category>Data engineering</category>
+                
+                <category>Data visualization</category>
+                
+                <category>Jupyter Notebooks</category>
+                
+                
             </item>
-        {% endfor %}
+        
+            <item>
+                <title>Portait of a lake&apos;s death.</title>
+                <description>
+</description>
+                <pubDate>Fri, 30 Sep 2022 14:01:35 +0200</pubDate>
+                <link>http://localhost:4000/blog/portrait-lake</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/portrait-lake</guid>
+                
+                <category>Remote sensing</category>
+                
+                <category>Data engineering</category>
+                
+                <category>Hackathon</category>
+                
+                <category>Ecology</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Participatory research to monitor lake water pollution.</title>
+                <description>
+</description>
+                <pubDate>Fri, 30 Sep 2022 14:01:35 +0200</pubDate>
+                <link>http://localhost:4000/blog/hackuarium-montreux-lake</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/hackuarium-montreux-lake</guid>
+                
+                <category>Data science</category>
+                
+                <category>Citizen science</category>
+                
+                <category>Hackuarium</category>
+                
+                <category>Ecology</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Zenodo Data Explorer</title>
+                <description>
+</description>
+                <pubDate>Sun, 24 Jul 2022 14:01:35 +0200</pubDate>
+                <link>http://localhost:4000/blog/zenodo-explorer</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/zenodo-explorer</guid>
+                
+                <category>Data visualization</category>
+                
+                <category>CERN</category>
+                
+                <category>Hackathon</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Quiet Friends</title>
+                <description>
+</description>
+                <pubDate>Tue, 20 Oct 2020 17:05:55 +0200</pubDate>
+                <link>http://localhost:4000/blog/lauzhack-quietfriends</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/lauzhack-quietfriends</guid>
+                
+                <category>Remote sensing</category>
+                
+                <category>Data engineering</category>
+                
+                <category>Hackathon</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>lapenalausanne.com</title>
+                <description>
+</description>
+                <pubDate>Tue, 29 May 2018 17:05:55 +0200</pubDate>
+                <link>http://localhost:4000/blog/lapenalausanne</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/lapenalausanne</guid>
+                
+                <category>Data scrapping</category>
+                
+                <category>Data engineering</category>
+                
+                <category>Culture</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>danielparejo.com</title>
+                <description>
+</description>
+                <pubDate>Tue, 29 May 2018 17:05:55 +0200</pubDate>
+                <link>http://localhost:4000/blog/daniel-parejo</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/daniel-parejo</guid>
+                
+                <category>Web Development</category>
+                
+                <category>Wordpress</category>
+                
+                
+            </item>
+        
     </channel>
 </rss>
