@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: Scientifcally-minded data analyst with international experience working on genomics, microscopy multidimensional image analysis, cellular biology modeling, and web development.
+description: Scientifically-minded data analyst with international experience working on genomics, microscopy multidimensional image analysis, cellular biology modelling, and web development.
 permalink: /about/
 image: '/images/01-2.jpg'
 image_caption: 'Me :)'
