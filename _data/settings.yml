@@ -51,7 +51,7 @@ social:
 hero:
   enable: true
   hero__title: Hi! I'm Carlos
-  hero__description: Biologist and data engineer with experience on <b>genomics</b>, <b>microscopy</b> and <b>satellite</b> multidimensional image analysis, cellular biology <b>modeling</b>, and <b>web development</b>.
+  hero__description: Biologist and data engineer with experience on <b>genomics</b>, <b>microscopy</b> and <b>satellite</b> multidimensional image analysis, cellular biology <b>modeling</b>, and <b>web development</b>. Currently working at the <b>Swiss Data Science Center</b> at EPFL.
   hero__image: "/images/01-1.png"
 
 
