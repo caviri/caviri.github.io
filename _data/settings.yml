@@ -50,8 +50,8 @@ social:
 # Hero Settings
 hero:
   enable: true
-  hero__title: Hey everyone, I'm Carlos
-  hero__description: Scientifcally-minded data analyst with international experience working on <b>genomics</b>, <b>microscopy</b> and <b>satellite</b> multidimensional image analysis, cellular biology <b>modeling</b>, and <b>web development</b>.
+  hero__title: Hi! I'm Carlos
+  hero__description: Biologist and data engineer with experience on <b>genomics</b>, <b>microscopy</b> and <b>satellite</b> multidimensional image analysis, cellular biology <b>modeling</b>, and <b>web development</b>.
   hero__image: "/images/01-1.png"
 
 
