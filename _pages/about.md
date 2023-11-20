@@ -26,7 +26,7 @@ While studying for my Bachelor in Biology at the University of Malaga, I develop
   <div class="gallery">
     <img src="/images/103.jpg" loading="lazy">
   </div>
-  <em>Photography is one of my passions.</em>
+  <em>I love to take pictures.</em>
 </div>
 
 In parallel to my research experience, I funded and coordinated “Impaciencia”, an educational project to promote interdisciplinary research among bachelor students. This project involved coordinating a team of 10 people, and required the coordination with 6 universities and 16 companies. This entrepreneurial side of me complements my passion and expertise for science, leading me to develop two start-up attempts: “Scidream” (2015 UMA Spin-off contest), and “Tell Me More” (2020 Innosuisse Bussiness Concept Training Program). Both of them discontinued after business plan evaluation. Finally, currently, I work as a freelance consultant and external data scientist for startups and institutions developing scientific products. Two recent examples are developing a deep learning model for satellite image analysis for Kido Dynamics (ESA-BIC, Switzerland) and consulting sessions to support a pre-initial investment round for Coolx.earth (Demium, Spain).
